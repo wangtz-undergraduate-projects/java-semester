@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:background="@drawable/entity_label_background"
+    android:gravity="center_vertical">
+    <!--我的频道单个item的视图-->
+    <TextView
+        android:id="@+id/id_channel_title"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/channel_fixed_bg_shape"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="热门"
+        android:textColor="#333333"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/id_delete_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:scaleType="center"
+        android:src="@drawable/ic_close_normal"
+        android:visibility="gone" />
+</RelativeLayout>

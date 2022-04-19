@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".SearchableActivity">
+
+    <item android:id="@+id/type_chinese"
+        android:title="@string/subject_chinese" />
+
+    <item android:id="@+id/type_math"
+        android:title="@string/subject_math" />
+
+    <item android:id="@+id/type_english"
+        android:title="@string/subject_english" />
+
+    <item android:id="@+id/type_physics"
+        android:title="@string/subject_physics" />
+
+    <item android:id="@+id/type_chemistry"
+        android:title="@string/subject_chemistry" />
+
+    <item android:id="@+id/type_biology"
+        android:title="@string/subject_biology" />
+
+    <item android:id="@+id/type_history"
+        android:title="@string/subject_history" />
+
+    <item android:id="@+id/type_geography"
+        android:title="@string/subject_geography" />
+
+    <item android:id="@+id/type_politics"
+        android:title="@string/subject_politics" />
+
+</menu>

@@ -1,0 +1,44 @@
+<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:key="chooseSubject"
+        app:title="@string/subject_manage_title">
+
+        <SwitchPreferenceCompat
+            app:key="chineseChosen"
+            app:title="@string/subject_chinese" />
+
+        <SwitchPreferenceCompat
+            app:key="math"
+            app:title="@string/subject_math" />
+
+        <SwitchPreferenceCompat
+            app:key="english"
+            app:title="@string/subject_english" />
+
+        <SwitchPreferenceCompat
+            app:key="physics"
+            app:title="@string/subject_physics" />
+
+        <SwitchPreferenceCompat
+            app:key="chemistry"
+            app:title="@string/subject_chemistry" />
+
+        <SwitchPreferenceCompat
+            app:key="biology"
+            app:title="@string/subject_biology" />
+
+        <SwitchPreferenceCompat
+            app:key="history"
+            app:title="@string/subject_history" />
+
+        <SwitchPreferenceCompat
+            app:key="geo"
+            app:title="@string/subject_geography" />
+
+        <SwitchPreferenceCompat
+            app:key="politics"
+            app:title="@string/subject_politics" />
+
+    </PreferenceCategory>
+</PreferenceScreen>

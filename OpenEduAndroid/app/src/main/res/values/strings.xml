@@ -1,0 +1,65 @@
+<resources>
+    <string name="app_name">EasyLearn</string>
+    <string name="title_home">首页</string>
+    <string name="title_search">发现</string>
+    <string name="title_train">训练</string>
+    <string name="title_user">我的</string>
+    <!-- Sync Preferences -->
+
+    <string name="subject_manage_title">请选择您感兴趣的科目</string>
+    <string name="subject_chinese">语文</string>
+    <string name="subject_math">数学</string>
+    <string name="subject_english">英语</string>
+    <string name="subject_physics">物理</string>
+    <string name="subject_chemistry">化学</string>
+    <string name="subject_biology">生物</string>
+    <string name="subject_history">历史</string>
+    <string name="subject_geography">地理</string>
+    <string name="subject_politics">政治</string>
+    <string name="title_activity_subject_manage">学科设置</string>
+    <string name="searchViewText">搜索</string>
+    <string name="app_label">EasyLearn</string>
+    <string name="search_hint">搜索知识点</string>
+
+    <string-array name="subjects">
+        <item>语文</item>
+        <item>数学</item>
+        <item>英语</item>
+        <item>物理</item>
+        <item>化学</item>
+        <item>生物</item>
+        <item>历史</item>
+        <item>地理</item>
+        <item>政治</item>
+    </string-array>
+
+    <string-array name="resultSortMethod">
+        <item>默认</item>
+        <item>标签首字母排序</item>
+        <item>类别首字母排序</item>
+        <item>标签长度升序</item>
+        <item>标签长度降序</item>
+    </string-array>
+
+    <string-array name="resultFilterMethod">
+        <item>全部</item>
+        <item>暂无</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="clearSearchHistory">清除搜索历史</string>
+    <string name="title_activity_entity_info">EntityInfoActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+</resources>
