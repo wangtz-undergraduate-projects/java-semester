@@ -1,0 +1,6 @@
+[submodule "OpenEduAndroid"]
+	path = OpenEduAndroid
+	url = git@github.com:tz039e/OpenEduAndroid.git
+[submodule "OpenEduBackend"]
+	path = OpenEduBackend
+	url = git@github.com:tz039e/OpenEduBackend.git
